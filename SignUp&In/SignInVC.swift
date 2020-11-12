@@ -20,7 +20,7 @@ class SignInVC: UIViewController {
         
         user = CoreDataHandler.fetchObject()
         for i in user! {
-            /*   /* Don't deleted commented code , cause it's a efficient way - starts here */*/
+            /* Don't deleted commented code , cause it's a efficient way - starts here */
             //  print("\(i.fname!),\(i.lname!),\(i.email!), \(i.password!),\(i.confirmPassword!),\(i.gender!),\(i.phoneType!),\(i.dob!)")
             /* Don't deleted commented code , cause it's a efficient way - ends here */
             print("\(i.fname!)")
